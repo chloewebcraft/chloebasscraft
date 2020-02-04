@@ -1,6 +1,6 @@
 html, body {
     background-color: #fff;
-    color: #636b6f;
+    color: #222222;
     font-family: 'Cambay', sans-serif;
     font-weight: 200;
     height: 100vh;
@@ -36,40 +36,63 @@ html, body {
 }
 
 .links > a {
-    color: #636b6f;
+    /* color: #636b6f;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; */
 }
 
 .m-b-md {
     margin-bottom: 30px;
 }
 
-.container {
+.title, #main, .primary-menu, #copyright {
     max-width:70%;
     margin:0 auto;
 }
 
-.navbar-menu {
-        max-width:50%;
-    margin:0 auto;
+.title {
+    text-align:center;
 }
 
-.navbar-menu > .navbar-item{
-    /* max-width:80%;
-    margin:0 auto; */
-    display:inline-flex;
+.navbar-menu {
+    background-color:#222222;
+}
 
+.navbar-menu a,
+.navbar-menu a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 10px 20px 0;
+}
+
+.navbar-menu a:hover {
+    color: #AFAFAF;
+    text-decoration: none;
 }
 
 .navbar-item {
-    padding:10px;
+    padding:10px 20px 10px 0;
     margin:0;
     position:relative;
+}
+
+#main {
+    padding: 30px 0;
+    min-height:300px;
+}
+
+footer {
+    background-color:#222222;
+    min-height:200px;
+    color:#FFFFFF;
+}
+
+#copyright {
+    padding:30px 0;
 }
 
 /* .naviation {
