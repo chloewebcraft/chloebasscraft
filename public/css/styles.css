@@ -32,7 +32,7 @@ html, body {
 }
 
 .title {
-    font-size: 84px;
+    font-size: 50px;
 }
 
 .links > a {
@@ -60,13 +60,16 @@ html, body {
 
 .navbar-menu {
     background-color:#222222;
+    padding:10px;
+    text-align:center;
 }
 
 .navbar-menu a,
 .navbar-menu a:visited {
     color: #FFFFFF;
     text-decoration: none;
-    padding: 20px 10px 20px 0;
+    padding: 20px 20px 20px 0;
+    text-transform: uppercase;
 }
 
 .navbar-menu a:hover {
@@ -81,7 +84,6 @@ html, body {
 }
 
 #main {
-    padding: 30px 0;
     min-height:300px;
 }
 
@@ -91,9 +93,19 @@ footer {
     color:#FFFFFF;
 }
 
-#copyright {
-    padding:30px 0;
+#social-media {
+    padding:20px 20px 5px 20px;
 }
+
+#social-media a,
+#social-media a:hover,
+#social-media a:visited {
+    color:#FFFFFF;
+}
+
+/* #copyright {
+    padding:30px 0;
+} */
 
 /* .naviation {
     width:100%;
