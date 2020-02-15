@@ -19,6 +19,14 @@ Route::get('/about', function () {
     return view('pages.about');
 });
 
+Route::get('/gear', function () {
+    return view('pages.gear');
+});
+
+Route::get('/repertoire', function () {
+    return view('pages.repertoire');
+});
+
 Route::get('/blog', function () {
     return view('pages.blog');
 });

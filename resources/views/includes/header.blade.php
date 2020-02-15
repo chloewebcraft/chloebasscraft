@@ -26,17 +26,16 @@
                 About
             </a>
 
+            <a href="/gear" class="navbar-item">
+                Gear
+            </a>
+
+            <a href="/repertoire" class="navbar-item">
+                Repertoire
+            </a>
+
             <a href="/blog" class="navbar-item">
                 Blog
             </a>
     </div>
     </div>
-
-    <!-- <div class="navigation">
-        <ul class="primary-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-        
-    </div> -->
