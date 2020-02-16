@@ -101,6 +101,7 @@ footer {
 #social-media a:hover,
 #social-media a:visited {
     color:#FFFFFF;
+    text-decoration:none;
 }
 
 /* #copyright {
